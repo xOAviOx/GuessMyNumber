@@ -41,7 +41,7 @@ A fun and interactive game built as part of the **DOM Basics** section in my Jav
 
 | Victory Screen               | Guessing in Progress        | Game Over                     |
 |------------------------------|-----------------------------|-------------------------------|
-| ![Victory Screenshot](assets/victory.png) | ![In Progress Screenshot](assets/guessing.png) | ![Game Over Screenshot](assets/gameover.png) |
+| ![Victory Screenshot](assets/winning.png) | ![In Progress Screenshot](assets/progress.png) | ![Game Over Screenshot](assets/lose.png) |
 
 ---
 
@@ -58,3 +58,9 @@ guessmynumber/
 ├── index.html          # Game structure
 ├── style.css           # Game styling
 └── script.js           # Game logic and interactivity
+```
+## 🎮 Play Now  
+
+Want to try the game online? Check out the [live demo]([https://your-username.github.io/guessmynumber](https://guessmynumber-byavi.netlify.app/))!
+
+
