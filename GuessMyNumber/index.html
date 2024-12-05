@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/start.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/Screenshot 2024-12-05 173238.png"
+    />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+    </header>
+    <main>
+      <audio id="background-audio" src="assets/audiogame.mp3" loop></audio>
+      <div class="landing">
+        <a href="game.html" class="btn start" id="my-link">Start the Game</a>
+        <button class="btn rules show-modal">Rules</button>
+
+        <div class="modal hidden">
+          <button class="close-modal">&times;</button>
+          <h1>Rules🎲</h1>
+          <p>
+            Rules are very simple, You have to guess a Number by putting it in
+            the input box and after pressing the check button you will see in
+            the message box if it is the correct number or if it is too high or
+            too low, each turn will lose you 1 point and after 20th turn, the
+            game will be over.
+          </p>
+        </div>
+        <div class="overlay hidden"></div>
+        <button class="btn play-audio">Play Audio🔊</button>
+      </div>
+    </main>
+  </body>
+  <script src="js/start.js"></script>
+</html>
